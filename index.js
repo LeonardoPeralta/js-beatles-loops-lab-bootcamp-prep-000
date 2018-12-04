@@ -9,19 +9,24 @@ return instrumentsPlayedBy;
 }
 
 function johnLennonFacts() {
-  const facts = [
-    "He was the last Beatle to learn to drive",
-    "He was never a vegetarian",
-    "He was a choir boy and boy scout",
-    "He hated the sound of his own voice"
-  ];
+  const facts = ["He was the last Beatle to learn to drive", "He was never a vegetarian", "He was a choir boy and boy scout", "He hated the sound of his own voice"];
 
-  var i = 0;
+  var x = 0;
   var shoutFacts = [];
 
-  while (i < facts.length) {
-    shoutFacts.push(facts[i] + "!!!");
-    i++;
+  while (x < facts.length) {
+    shoutFacts.push(`${facts[x]}!!!`);
+    x++;
   }
   return shoutFacts;
 }
+
+// function iLoveTheBeatles() {
+//   var howManyTimes = [];
+//   var n = 0;
+//   do {
+//     howManyTimes.push["I love the Beatles!"];
+//     n++
+//   } while (howManyTimes.length < 15);
+//   return howManyTimes;
+// }
